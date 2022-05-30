@@ -8,6 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Kafka-logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Svg" Version="3.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Kafka-logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Resources\Resources.he-IL.Designer.cs">
       <DependentUpon>Resources.he-IL.resx</DependentUpon>
       <DesignTime>True</DesignTime>
